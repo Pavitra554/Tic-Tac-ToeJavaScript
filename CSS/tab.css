@@ -1,0 +1,11 @@
+.mainbox{
+    height: 480px;
+    width: 480px;
+}
+
+.mainbox1 .img2 {
+    left: 47%;
+}
+.mainbox1 #winner{
+    margin-top: -655px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAK-TOE</title>
+    <link rel="stylesheet" href="./CSS/game.css">
+    <link rel="stylesheet" media="screen and (max-width: 1193px)" href="./CSS/tab.css">
+    <link rel="stylesheet"  media="screen and (max-width: 500px)" href="./CSS/phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <div class="play">Let's Play. . .</div>
+    <div class="players">Player-1: X &nbsp;&nbsp;&nbsp; Player-2: O</div>
+    <div class="mainbox">
+        <input class="button" type="button" value="" id="btn1">
+        <input class="button" type="button" value="" id="btn2">
+        <input class="button" type="button" value="" id="btn3">
+        <input class="button" type="button" value="" id="btn4">
+        <input class="button" type="button" value="" id="btn5">
+        <input class="button" type="button" value="" id="btn6">
+        <input class="button" type="button" value="" id="btn7">
+        <input class="button" type="button" value="" id="btn8">
+        <input class="button" type="button" value="" id="btn9">
+    </div>
+    <div class="mainbox1" id="massage" >
+       <img src="./IMG/ZOHV.gif" alt="Loading..." class="img1" >
+       <img src="./IMG/ZOHV.gif" alt="Loading..." class="img2">
+        <p id="player"></p>
+        <p id="winner">Wins !</p>
+    </div>
+    <button onclick="reset()" class="restart" >Restart</button>
+    <script src="./JS/game.js"></script>
+</body>
+</htmnl>

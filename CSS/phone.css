@@ -1,0 +1,36 @@
+body{
+    background-size: 387%;
+    zoom: 100%;
+    viewport-fit: 500px;
+}
+.mainbox{
+    height: 300px;
+    width: 300px;
+}
+.play {
+    font-size: 2rem;
+}
+.players {
+    font-size: 1rem;
+}
+.mainbox1 #player {
+    font-size: 4rem;
+    text-align: center;
+}
+input{
+    font-size: 4rem;
+    height: 100px;
+    width: 100px;
+}
+.mainbox1 #winner {
+ font-size: 10rem;
+ margin-top: -561px;
+
+}
+.mainbox1 .img2 {
+    margin-left: -42rem;
+}
+.mainbox1 .img1 {
+    position: absolute;
+    width: 100%;
+}

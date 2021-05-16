@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 722px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image:linear-gradient(140deg,#007A1F,#8CFF68) ;
+    background: url('/IMG/4799045.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 220%;
+}
+.mainbox{
+
+    height: 480px;
+    width: 480px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.562);
+    display: grid;
+    grid-template-areas: 
+    'b1 b2 b3'
+    'b4 b5 b6'
+    'b7 b8 b9' ;
+}
+.play{
+    font-family: 'Bangers', cursive;
+    padding-bottom: 5px;
+    font-size: 3rem;
+    text-align: center;
+}
+.players{
+    font-family: 'Bangers', cursive;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+input{
+    /* opacity: 0.4; */
+    color: black;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 7px #0000009e;
+    background: transparent;
+    font-size: 8rem;
+    height: 160px;
+    width: 160px;
+    outline: none;
+}
+input:hover{
+    background:rgba(0, 0, 0, 0.233);
+}
+.restart{
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-top: 26px;
+    margin: auto;
+    margin-top: 26px;
+    width: 130px;
+    border-radius: 51px;
+    outline: none;
+    border: navajowhite;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 56%);
+    color: #ffffff;
+    background-image: linear-gradient(145deg,#bc4e9c,#f80759);
+    text-align: center;
+    z-index: 5;
+}
+.restart:active{
+    box-shadow: none;
+}
+.restart:hover{
+    animation: blink linear 1s   infinite ;
+}
+@keyframes blink {
+    0%{
+        color:#ffffff;
+    }
+    50%{
+        color:#000000;
+    }
+    100%{
+        color:#ffffff;
+    }
+}
+.mainbox1{
+    font-family: 'Bangers', cursive;
+    color: #f80759;
+    position: absolute;
+    height: 103%;
+    width: 100%;
+    border:none;
+    text-shadow: 5px 5px 7px #0000009e;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainbox1 .img1{
+    position: absolute;
+    top: 0;
+}
+.mainbox1 .img2{
+    position: absolute;
+    top: 0;
+    left: 70%;
+  
+}
+.mainbox1 #player{
+    color: #f80759;;
+    font-size: 8rem;
+    text-align: center;
+}
+.mainbox1 #winner{
+    color: #f80759;
+    font-size: 15rem;
+    margin-top: -300px;
+}
+#btn1{grid-area: b1;border: 1px solid rgb(0, 0, 0); border-left: none; border-top: none; border-top-left-radius: 30px;}
+#btn2{grid-area: b2;border:1px solid rgb(0, 0, 0); border-top: none;}
+#btn3{grid-area: b3;border:1px solid rgb(0, 0, 0); border-right: none; border-top: none; border-top-right-radius: 30px;}
+#btn4{grid-area: b4;border: 1px solid rgb(0, 0, 0); border-left: none;}
+#btn5{grid-area: b5;border: 1px solid rgb(0, 0, 0);}
+#btn6{grid-area: b6;border: 1px solid rgb(0, 0, 0); border-right: none;}
+#btn7{grid-area: b7;border: 1px solid rgb(0, 0, 0); border-left: none; border-bottom: none; border-bottom-left-radius: 30px;}
+#btn8{grid-area: b8;border: 1px solid rgb(0, 0, 0); border-bottom: none;}
+#btn9{grid-area: b9;border: 1px solid rgb(0, 0, 0); border-bottom: none;border-right: none; border-bottom-right-radius: 30px;}
