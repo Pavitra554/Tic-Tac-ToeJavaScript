@@ -6,10 +6,14 @@
 - I have created this for just practice purpose.
 - You can play the game by clicking on the link below.
 
-# Languages and Tools:
+# Languages:
 - HTML
 - CSS
 - JavaScript 
+
+# Tools:
+- Visual Studio Code
+- vercel(for hosting)
 
 # uture improvements:
 - This is not too responsive but it will after some time.
