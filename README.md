@@ -15,7 +15,7 @@
 - Visual Studio Code
 - vercel(for hosting)
 
-# uture improvements:
+# future improvements:
 - This is not too responsive but it will after some time.
 - And i am also want to add multiplayer mode.
 
