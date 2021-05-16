@@ -1,4 +1,4 @@
-# Nmae of the project:
+# Name of the project:
 - Tic-Tac-Toe 
 
 # About:
