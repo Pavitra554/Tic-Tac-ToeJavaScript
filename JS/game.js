@@ -66,7 +66,7 @@ for (let index = 0; index < btn.length; index++) {
         else if(btn[2].value == 'X' && btn[5].value == 'X' && btn[8].value == 'X' ){
             btn[2].style.color = 'red';
             btn[5].style.color = 'red';
-            btn[9].style.color = 'red';
+            btn[8].style.color = 'red';
             setTimeout(() => {
                 winnerX()
             }, 1000);
@@ -131,7 +131,7 @@ for (let index = 0; index < btn.length; index++) {
             else if(btn[2].value == 'O' && btn[5].value == 'O' && btn[8].value == 'O' ){
                 btn[2].style.color = 'red';
                 btn[5].style.color = 'red';
-                btn[9].style.color = 'red';
+                btn[8].style.color = 'red';
                setTimeout(() => {
                     winnerO()
                 }, 1000);
@@ -202,7 +202,7 @@ for (let index = 0; index < btn.length; index++) {
         else if(btn[2].value == 'X' && btn[5].value == 'X' && btn[8].value == 'X' ){
             btn[2].style.color = 'red';
             btn[5].style.color = 'red';
-            btn[9].style.color = 'red';
+            btn[8].style.color = 'red';
             setTimeout(() => {
                 winnerX()
             }, 1000);
@@ -270,7 +270,7 @@ for (let index = 0; index < btn.length; index++) {
             else if(btn[2].value == 'O' && btn[5].value == 'O' && btn[8].value == 'O' ){
                 btn[2].style.color = 'red';
                 btn[5].style.color = 'red';
-                btn[9].style.color = 'red';
+                btn[8].style.color = 'red';
                 setTimeout(() => {
                     winnerO()
                 }, 1000);
